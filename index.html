@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <title>Mailchimp Template</title>
+    </head>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1, h2, h3, h4, h5, h6, p, li, a, button {
+            font-family: 'Montserrat';
+        }
+        h1 {
+            margin: 0 0 16px 16px;
+            font-weight: 700;
+            font-size: 28px;
+        }
+        h2 {
+            font-weight: 600;
+            font-size: 20px;
+            margin: 0;
+        }
+        p {
+            width: 100%;
+            font-weight: 400;
+            font-size: 16px;
+        }
+        .container {
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+            position: relative;
+            width: 100%; 
+            padding: 141px 24px; 
+            max-width: 600px; 
+            margin: 0 auto;
+            background-color: white;
+        }
+        .title {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        .title svg {
+            margin-bottom: 16px;
+        }
+        img {
+            background-color: #1B3045; 
+            width: 100%; 
+            height: 276px;
+        }
+        .subtext {
+            width: 100%; 
+            margin-bottom: 48px;
+        }
+        .text {
+            margin: 48px 0 !important;
+        }
+        .cta {
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            flex-wrap: wrap; 
+            width: 100%;
+        }
+        .cta div {
+            display: flex; 
+            align-items: center; 
+            justify-content: flex-start; 
+            flex-wrap: wrap; 
+            width: 50%;
+            margin-left: 5%;
+        }
+        .cta img {
+            height: 193px;
+            width: 45%;
+        }
+        button {
+            width: 90px;
+            height: 38px;
+            background-color: #2E507F;
+            border-radius: 5px;
+            color: white;
+            outline: none;
+            box-shadow: none;
+            border: none;
+            font-weight: 400;
+            font-size: 16px;
+            transition: ease 0.4s;
+        }
+        button:hover {
+            cursor: pointer;
+            transition: ease 0.4s;
+            background-color: #2e507fc6;
+        }
+        .header {
+            position: absolute;
+            top: 0;
+            left: 24px;
+            transform: scale(1.08);
+        }
+        .header__items {
+            position: absolute;
+            top: 12.5px;
+            left: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header__items p {
+            color: white;
+            margin-left: 24px;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 24px;
+            transform: scale(1.08);
+        }
+        .footer__items {
+            position: absolute;
+            bottom: 12.5px;
+            right: 24px;
+        }
+        .footer__items a {
+            margin-left: 33px;
+            color: white;
+            font-size: 11px;
+            font-weight: 500;
+            transition: ease 0.4s;
+        }
+        .footer__items a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            transition: ease 0.4s;
+        }
+
+    </style>
+    <body>
+        <div class="container">
+            <!-- header -->
+            <svg class="header" xmlns="http://www.w3.org/2000/svg" width="600" height="93" viewBox="0 0 600 93" fill="none">
+                <path d="M600 44.0001V14.0001V6.10352e-05H0L7.21238e-06 82.5001C21.5 84.3455 86.5 87.5 135.5 88.5C183.503 89.4797 279 79.0001 351 63.0001C408.6 50.2001 540.5 45.6667 600 44.0001Z" fill="#1B3045"/>
+                <path d="M239.193 80.717C210.022 83.6276 184.732 85.3931 148.865 86.4381C95.6147 87.9896 30.9418 84.5343 5.84459 82.9923C4.01801 82.8689 1.49896 82.7355 0 82.6686C0 82.6686 59.7557 87.7721 75.5 89.0001C94.5917 90.2536 129.319 92.0664 161.48 91.9986C192.179 91.9339 210.022 91.3022 239.193 88.3916C258.634 86.4518 272.145 84.2473 286.88 81.7914C315.307 76.8285 353.805 69.16 400.168 63.2957C432.996 59.1435 451.824 56.9108 486.459 54.4699C529.9 51.4085 557.208 50.295 600 50.7861V43.1116C557.208 42.6204 529.9 43.7339 486.459 46.7953C451.824 49.2362 432.996 51.4689 400.168 55.6211C353.805 61.4854 315.307 69.1539 286.88 74.1168C272.145 76.5727 258.634 78.7772 239.193 80.717Z" fill="#697990"/>
+                <path d="M161.674 90.3724C129.637 90.7967 103.047 90.2996 65.086 88.3797C71.6918 88.8484 77.3046 89.2527 80.8101 89.517C99.8714 90.7269 130.068 93.0641 162.178 92.9987C192.828 92.9362 210.642 92.3264 239.766 89.517C259.176 87.6447 272.666 85.5168 287.378 83.1463C315.76 78.356 354.196 70.954 400.486 65.2936C433.261 61.2858 452.059 59.1307 486.64 56.7747C530.012 53.8197 557.276 52.7449 600 53.219L600 50.1077C557.276 49.6336 530.012 50.7085 486.64 53.6635C452.059 56.0194 433.261 58.1745 400.486 62.1824C354.196 67.8428 315.76 75.2447 287.378 80.0351C272.666 82.4056 259.176 84.5334 239.766 86.4058C210.642 89.2152 189.636 90.002 161.674 90.3724Z" fill="#CDD2DA"/>
+            </svg>
+            <div class="header__items">
+                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="49" viewBox="0 0 33 49" fill="none">
+                    <path d="M16.5 39.1787C7.39993 39.1787 0 32.0198 0 23.2161C0 14.4125 7.39993 7.25357 16.5 7.25357C25.6001 7.25357 33 14.4125 33 23.2161C33 32.0198 25.6001 39.1787 16.5 39.1787ZM16.5 9.38349C8.62305 9.38349 2.20163 15.5839 2.20163 23.2161C2.20163 30.8365 8.61082 37.0488 16.5 37.0488C24.3892 37.0488 30.7984 30.8484 30.7984 23.2161C30.7984 15.6076 24.3769 9.38349 16.5 9.38349Z" fill="white"/>
+                    <path d="M8.53745 39.9123H6.2869V30.0674H8.53745V39.9123ZM12.9652 0H10.7146V43.9947H12.9652V0ZM17.5152 0H15.2647V49H17.5152V0ZM22.1509 13.5487H19.9003V42.4209H22.1509V13.5487ZM26.7131 21.3939H24.4626V39.9242H26.7131V21.3939Z" fill="white"/>
+                </svg>
+                <p>18th August 2023</p>
+            </div>
+
+            <!-- content -->
+            <div class="title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                    <rect x="8.65298" width="7.69231" height="25" fill="#4C7EAF"/>
+                    <rect x="25" y="8.65379" width="7.69231" height="25" transform="rotate(90 25 8.65379)" fill="#4C7EAF"/>
+                </svg>
+                <h1>A cool, fresh newsletter!</h1>
+            </div>
+            <p class="subtext">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur</p>
+            <img />
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur</p>
+    
+            <div class="cta">
+                <img />
+                <div>
+                    <h2>A cool, fresh newsletter!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur</p>
+                    <a><button>CTA</button></a>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <svg class="footer" xmlns="http://www.w3.org/2000/svg" width="600" height="93" viewBox="0 0 600 93" fill="none">
+                <path d="M3.8466e-06 48.9999L1.22392e-06 78.9999L0 92.9999L600 93L600 10.5C578.5 8.65458 513.5 5.50002 464.5 4.5C416.497 3.52034 316.5 12.5 244.5 28.5C186.9 41.3 59.5 47.3333 3.8466e-06 48.9999Z" fill="#1B3045"/>
+                <path d="M360.807 12.2831C389.978 9.37247 415.268 7.60695 451.135 6.56194C504.385 5.0105 569.058 8.46571 594.155 10.0077C595.982 10.1312 598.501 10.2646 600 10.3315C600 10.3315 540.244 5.22793 524.5 4C505.408 2.74649 470.681 0.933628 438.52 1.00144C407.821 1.06618 389.978 1.69789 360.807 4.60848C341.366 6.54828 327.855 8.75276 313.12 11.2086C284.693 16.1715 246.195 23.8401 199.832 29.7043C167.004 33.8565 148.176 36.0893 113.541 38.5301C70.0995 41.5915 42.7923 42.7051 6.80685e-07 42.2139L9.75217e-09 49.8885C42.7922 50.3796 70.0995 49.2661 113.541 46.2047C148.176 43.7638 167.004 41.5311 199.832 37.3789C246.195 31.5146 284.693 23.8461 313.12 18.8832C327.855 16.4273 341.366 14.2229 360.807 12.2831Z" fill="#697990"/>
+                <path d="M438.326 2.62769C470.363 2.20334 496.953 2.7005 534.914 4.62039C528.308 4.15167 522.695 3.74736 519.19 3.48304C500.129 2.27311 469.932 -0.064071 437.822 0.00138643C407.172 0.0638685 389.358 0.673623 360.234 3.48303C340.824 5.35538 327.334 7.48321 312.622 9.8537C284.24 14.644 245.804 22.046 199.514 27.7064C166.739 31.7142 147.941 33.8693 113.36 36.2253C69.9881 39.1803 42.7242 40.2551 2.81408e-07 39.781L6.10446e-05 42.8923C42.7243 43.3664 69.988 42.2915 113.36 39.3366C147.941 36.9806 166.739 34.8255 199.514 30.8176C245.804 25.1573 284.24 17.7553 312.622 12.965C327.334 10.5945 340.824 8.46664 360.234 6.59428C389.358 3.78488 410.364 2.99808 438.326 2.62769Z" fill="#CDD2DA"/>
+            </svg>
+            <div class="footer__items">
+                <a>Terms & Conditions</a>
+                <a>Pulsetech.io</a>
+            </div>
+        </div>
+    </body>
+</html>
